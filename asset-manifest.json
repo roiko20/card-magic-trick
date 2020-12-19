@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/card-magic-trick/static/css/main.f2a6492c.chunk.css",
+    "main.js": "/card-magic-trick/static/js/main.8165e720.chunk.js",
+    "main.js.map": "/card-magic-trick/static/js/main.8165e720.chunk.js.map",
+    "runtime-main.js": "/card-magic-trick/static/js/runtime-main.e9ac1c25.js",
+    "runtime-main.js.map": "/card-magic-trick/static/js/runtime-main.e9ac1c25.js.map",
+    "static/js/2.08387924.chunk.js": "/card-magic-trick/static/js/2.08387924.chunk.js",
+    "static/js/2.08387924.chunk.js.map": "/card-magic-trick/static/js/2.08387924.chunk.js.map",
+    "static/js/3.86e8199c.chunk.js": "/card-magic-trick/static/js/3.86e8199c.chunk.js",
+    "static/js/3.86e8199c.chunk.js.map": "/card-magic-trick/static/js/3.86e8199c.chunk.js.map",
+    "index.html": "/card-magic-trick/index.html",
+    "static/css/main.f2a6492c.chunk.css.map": "/card-magic-trick/static/css/main.f2a6492c.chunk.css.map",
+    "static/js/2.08387924.chunk.js.LICENSE.txt": "/card-magic-trick/static/js/2.08387924.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9ac1c25.js",
+    "static/js/2.08387924.chunk.js",
+    "static/css/main.f2a6492c.chunk.css",
+    "static/js/main.8165e720.chunk.js"
+  ]
+}
