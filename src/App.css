@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap');
+
+html {
+    /*background-image: linear-gradient(to bottom, #1A4A1C, #308834 600px);*/
+    /*background: linear-gradient(180deg, #F5EEF7 0%, #EEF0FD 46.75%);*/
+    background: rgba(56,149,45,1);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(94,168,67,1), rgba(56,149,45,1));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(94,168,67,1) 0%, rgba(56,149,45,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 1400px) {
+    .deckCard {
+        height: 260px;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 1200px) {
+    .deckCard {
+        height: 240px;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 1000px) {
+    .deckCard {
+        height: 210px;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 870px) {
+    .deckCard {
+        height: 190px;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 780px) {
+    .deckCard {
+        height: 170px;
+    }
+}
+
+@media (max-width: 700px) {
+    .deckCard {
+        height: 160px;
+    }
+}
+
+@media (max-width: 630px) {
+    .deckCard {
+        height: 150px;
+    }
+}
+
+@media (max-width: 580px) {
+    .deckCard {
+        height: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .deckCard {
+        height: 135px;
+    }
+}
+
+@media (max-width: 380px) {
+    .deckCard {
+        height: 125px;
+    }
+}
+
+@media (max-width: 1750px) {
+    .pileCard {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .pileCard {
+        height: 295px;
+    }
+}
+
+@media (max-width: 1580px) {
+    .pileCard {
+        height: 290px;
+    }
+}
+
+@media (max-width: 1515px) {
+    .pileCard {
+        height: 280px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .pileCard {
+        height: 245px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .pileCard {
+        height: 230px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .pileCard {
+        height: 220px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .pileCard {
+        height: 205px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .pileCard {
+        height: 240px;
+    }
+}
+
+@media (max-width: 630px) {
+    .pileCard {
+        height: 200px;
+    }
+}
+
+@media (max-width: 515px) {
+    .pileCard {
+        height: 180px;
+    }
+}
+
+@media (max-width: 450px) {
+    .pileCard {
+        height: 160px;
+    }
+}
+
+@media (max-width: 380px) {
+    .pileCard {
+        height: 140px;
+    }
+}
+
+.finalCard {
+    height: 350px;
+    margin-top: 15px;
+}
+
+@media (max-width: 1400px) {
+    .finalCard {
+        height: 340px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .finalCard {
+        height: 320px;
+    }
+}
+
+@media (max-width: 780px) {
+    .finalCard {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .finalCard {
+        height: 270px;
+    }
+}
+
+@media (max-width: 440px) {
+    .finalCard {
+        height: 250px;
+    }
+}
+
+@media (max-width: 380px) {
+    .finalCard {
+        height: 220px;
+    }
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.pilesDiv {
+    display: flex;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.headerIcon {
+    position: relative;
+    height: 73px;
+    top: 20px;
+    left: 5px;
+}
+
+@media (max-width: 480px) {
+    .headerIcon {
+        height: 60px;
+    }
 }
