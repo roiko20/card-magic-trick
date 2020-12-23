@@ -3,7 +3,7 @@
 ### Overview
 I recalled a magic trick I really enjoyed doing as a kid.
 <br/>
-Then I thought, why not turn it into a React app?!
+Then I thought, why not turn it into a React app?
 <br/>
 Check out the final result [here](https://roiko20.github.io/card-magic-trick/).
 
