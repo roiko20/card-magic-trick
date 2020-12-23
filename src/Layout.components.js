@@ -289,7 +289,7 @@ export const Wrapper = styled.div`
     border-radius: 20px;
     background: linear-gradient(to left, rgba(94,168,67,1) 0%, rgba(56,149,45,1) 100%);
     @media (max-width: 1200px) {
-       min-height: 90vh;
+       min-height: 92vh;
     }
     @media (max-width: 780px) {
         min-height: 92vh;

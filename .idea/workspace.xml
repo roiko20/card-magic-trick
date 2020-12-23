@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1d2b5d-718d-481e-bc55-b381075deb45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout.components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.components.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,11 +92,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Layout.components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="304" column="5" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+            <state relative-caret-position="141">
+              <caret line="291" column="21" selection-start-line="291" selection-start-column="21" selection-end-line="291" selection-end-column="21" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
-                <marker date="1608755449870" expanded="true" signature="2773:2810" ph="..." />
+                <marker date="1608755629817" expanded="true" signature="2773:2810" ph="..." />
               </folding>
             </state>
           </provider>
@@ -284,12 +283,12 @@
       <updated>1607120552542</updated>
       <workItem from="1607120553756" duration="73608000" />
       <workItem from="1607464957214" duration="64830000" />
-      <workItem from="1608208697073" duration="41659000" />
+      <workItem from="1608208697073" duration="41839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180097000" />
+    <option name="totallyTimeSpent" value="180277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1793" y="23" width="1680" height="976" extended-state="0" />
@@ -461,11 +460,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Layout.components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="304" column="5" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+        <state relative-caret-position="141">
+          <caret line="291" column="21" selection-start-line="291" selection-start-column="21" selection-end-line="291" selection-end-column="21" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
-            <marker date="1608755449870" expanded="true" signature="2773:2810" ph="..." />
+            <marker date="1608755629817" expanded="true" signature="2773:2810" ph="..." />
           </folding>
         </state>
       </provider>
