@@ -39,22 +39,6 @@ export const CardsWrapper = styled.div`
     padding-bottom: 70px;
     padding-bottom: ${props => props.class === "finalCard" ? "30px" : "70px"};
     width: 99%;
-    @media (max-width: 880px) {
-        min-height: 25vh;
-    }
-    @media (max-width: 780px) {
-        min-height: 28vh;
-    }
-    @media (max-width: 630px) {
-        min-height: 33vh;
-    }
-    @media (max-width: 480px) {
-        min-height: 43vh;
-        padding-top: 10px;
-    }
-    @media (max-width: 380px) {
-        min-height: 48vh;
-    }
 `;
 
 export const CardLayout = styled.div`
@@ -304,13 +288,19 @@ export const Wrapper = styled.div`
     box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
     background: linear-gradient(to left, rgba(94,168,67,1) 0%, rgba(56,149,45,1) 100%);
+    @media (max-width: 1200px) {
+       min-height: 90vh;
+    }
     @media (max-width: 780px) {
+        min-height: 92vh;
         margin: 30px;
     }
     @media (max-width: 630px) {
         margin: 20px;
+        min-height: 94vh;
     }
     @media (max-width: 480px) {
         margin: 10px;
+        min-height: 96vh;
     }
 `;
