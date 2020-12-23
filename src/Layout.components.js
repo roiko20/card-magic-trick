@@ -11,7 +11,7 @@ export const Header = styled.header`
     font-weight: bold;
     color: whitesmoke;
     padding: 15px 0;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
     @media (max-width: 1200px) {
         font-size: 42px;
     }
@@ -39,8 +39,21 @@ export const CardsWrapper = styled.div`
     padding-bottom: 70px;
     padding-bottom: ${props => props.class === "finalCard" ? "30px" : "70px"};
     width: 99%;
+    @media (max-width: 880px) {
+        min-height: 25vh;
+    }
+    @media (max-width: 780px) {
+        min-height: 28vh;
+    }
+    @media (max-width: 630px) {
+        min-height: 33vh;
+    }
     @media (max-width: 480px) {
+        min-height: 43vh;
         padding-top: 10px;
+    }
+    @media (max-width: 380px) {
+        min-height: 48vh;
     }
 `;
 
@@ -228,7 +241,7 @@ export const Button =  styled.button`
     padding: 17px;
     text-align: center;
     letter-spacing: 0.04em;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 23px;
     transition: 0.5s;
@@ -239,9 +252,10 @@ export const Button =  styled.button`
     box-shadow: 2px 2px 8px black;
     border: 0;
     outline: none;
-    &:hover {
-       background-position: right center;
-       box-shadow: 5px 5px 10px black;
+    @media (hover: hover) {
+        &:hover {
+            background-position: right center;
+            box-shadow: 5px 5px 10px black;
     }
     @media (max-width: 1690px) {
         font-size: ${props => props.name === "deckButton" ? "23px" : "20px"};
