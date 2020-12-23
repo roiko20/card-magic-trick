@@ -252,11 +252,6 @@ export const Button =  styled.button`
     box-shadow: 2px 2px 8px black;
     border: 0;
     outline: none;
-    @media (hover: hover) {
-        &:hover {
-            background-position: right center;
-            box-shadow: 5px 5px 10px black;
-    }
     @media (max-width: 1690px) {
         font-size: ${props => props.name === "deckButton" ? "23px" : "20px"};
     }
@@ -295,6 +290,11 @@ export const Button =  styled.button`
         font-size: ${props => props.name === "deckButton" ? "12px" : "11px"};
         padding: ${props => props.name === "deckButton" ? "13px" : "11px"};
         max-width: ${props => props.name !== "deckButton" ? "30%" : "auto"};
+    }
+    @media (hover: hover) {
+         &:hover {
+             background-position: right center;
+             box-shadow: 5px 5px 10px black;
     }
 `;
 
