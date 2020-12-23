@@ -31,7 +31,7 @@ By following a specific set of actions on a deck of 21 cards, you can always kno
 <br/>
 For you to know which card it was, these actions must be performed in a very specific order.
 <br/>
-For the above reason, creating the logic of the app to invoke the correct API at the right time, was the challenging part for me.
+For the above reason, creating the logic of the app to invoke the correct API at the right time, was the challenging part.
 <br/>
 If you want to read more about the concept behind this magic trick, it's right [here](https://en.wikipedia.org/wiki/Twenty-One_Card_Trick).
 
