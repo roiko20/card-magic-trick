@@ -288,19 +288,19 @@ export const Wrapper = styled.div`
     box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
     background: linear-gradient(to left, rgba(94,168,67,1) 0%, rgba(56,149,45,1) 100%);
-    @media (max-width: 1200px) {
+    @media (max-width: 1400px) {
        min-height: 92vh;
     }
     @media (max-width: 780px) {
-        min-height: 92vh;
+        min-height: 93vh;
         margin: 30px;
     }
     @media (max-width: 630px) {
         margin: 20px;
-        min-height: 94vh;
+        min-height: 95vh;
     }
     @media (max-width: 480px) {
         margin: 10px;
-        min-height: 96vh;
+        min-height: 97vh;
     }
 `;
