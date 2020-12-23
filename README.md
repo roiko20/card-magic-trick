@@ -5,7 +5,7 @@ I recalled a magic trick I really enjoyed doing as a kid.
 <br/>
 Then I thought, why not turn it into a React app?!
 <br/>
-Check it out [here](https://roiko20.github.io/card-magic-trick/).
+Check out the final result [here](https://roiko20.github.io/card-magic-trick/).
 
 ### About
 This was one of my first attempts to create a React app from scratch.
