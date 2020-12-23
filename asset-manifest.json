@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/card-magic-trick/static/css/main.f2a6492c.chunk.css",
-    "main.js": "/card-magic-trick/static/js/main.8165e720.chunk.js",
-    "main.js.map": "/card-magic-trick/static/js/main.8165e720.chunk.js.map",
+    "main.js": "/card-magic-trick/static/js/main.f4adce46.chunk.js",
+    "main.js.map": "/card-magic-trick/static/js/main.f4adce46.chunk.js.map",
     "runtime-main.js": "/card-magic-trick/static/js/runtime-main.e9ac1c25.js",
     "runtime-main.js.map": "/card-magic-trick/static/js/runtime-main.e9ac1c25.js.map",
     "static/js/2.08387924.chunk.js": "/card-magic-trick/static/js/2.08387924.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e9ac1c25.js",
     "static/js/2.08387924.chunk.js",
     "static/css/main.f2a6492c.chunk.css",
-    "static/js/main.8165e720.chunk.js"
+    "static/js/main.f4adce46.chunk.js"
   ]
 }
